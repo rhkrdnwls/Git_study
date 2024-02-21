@@ -26,6 +26,11 @@ git status : 저장소의 상태 확인용 명령어
 여기서 untracked files에 A가 들어가 있는 이유이다. 
 
 이를 관리하라고 git에게 알려주는 명령어 : add 이다
-git add A.txt를 입력하면 git이 A.txt를 새로운 파일로 인식하기 시작한다. 
+git add A.txt를 입력하면 git이 A.txt를 새로운 파일로 인식하기 시작한다.
 
--
+git add를 하고 나서는 commit이라는 명령어를 추가적으로 해줘야 한다. 
+git commit이라고 작성하면 git에서는 commit message를 작성할 수 있는 칸은 제공한다. 
+
+git log : 내가 만든 commit들이 쫙 나온다.
+
+- add와 commit은 파일의 내용이 바뀌거나 파일을 새로 생성할때마다 해줘어야 한다.
