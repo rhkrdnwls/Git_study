@@ -27,8 +27,15 @@ git log : 내가 만든 commit들이 쫙 나온다. (commit 내용과 함께 나
 
 - add와 commit은 파일의 내용이 바뀌거나 파일을 새로 생성할때마다 해줘어야 한다.
 
+commit을 할때 
+git commit -a 라고 하면 (자동으로 파일이 add가 되고 바로 commit message작성하는 부분으로 넘어간다.)
+git commit -am "a" : a가 commit message가 되고 자동으로 add와 commit이 된다. 
+git commit -m "a" : a가 commit message가 된다.(add는 우리가 해줘야 한다.)
+
 여기서 어떤 파일을 commit 하기 위해서는 먼저 파일이 add가 되어야 한다. 
 - add을 통해 파일이 commit 대기 상태가 된다 
 - 그리고 commit을 하면 commit 대기 상태에 있는 것이 버전에 올라간다. 
 commit 대기 상태 --> staging area라고 부른다. 
 repository는 commit이 된 결과가 저장 되는 곳이다. 
+
+
